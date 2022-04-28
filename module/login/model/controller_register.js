@@ -4,7 +4,7 @@ function register(){
         var data = $('#register_form').serialize();
         // console.log(data);
         $.ajax({
-            url: "module/login/controller/controller_login.php?op=register&" + data,
+            url: "module/login/controller/controller_login.php?op=register",
             type: "POST",
             dataType: "JSON",
             data: data,
