@@ -12,10 +12,6 @@
             include("module/login/view/login.html");
             break;
 
-        case 'register_view';
-            include("module/login/view/register.html");
-            break;
-
         case 'login':
 
             try{
