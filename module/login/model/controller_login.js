@@ -3,7 +3,7 @@ function login(){
     if(validate_login() != 0){
         var data = $('#login_form').serialize();
         $.ajax({
-            url: "module/login/controller/controller_login.php?op=login&" + data,
+            url: "module/login/controller/controller_login.php?op=login",
             dataType: "JSON",
             type: "POST",
             data: data,
